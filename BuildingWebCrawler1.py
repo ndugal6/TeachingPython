@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 #Create the spider
 def trade_spider(max_pages):
-    page = 1
+    page = 0
     while page <= max_pages:
         #request data from website
         #Convert into plain text (get source code)
@@ -20,7 +20,7 @@ def trade_spider(max_pages):
             print(title)
             # print(href)
             get_single_item_data(href)
-        page += 1
+        page += 20
 
 def get_single_item_data(item_url):
     source_code = requests.get(item_url)
@@ -29,11 +29,15 @@ def get_single_item_data(item_url):
     for item_name in soup.findAll('time', {'class':'live-timestamp'}):
         print(item_name.string)
     for links in soup.findAll('a'):
-        href = 'https://www.reddit.com/?count=' + links.get('href')
+        try :
+            href = 'https://www.reddit.com/?count=' + links.get('href')
+        except TypeError:
+            print("Post's link error")
+
         print(href)
 
 
 
 
 
-trade_spider(1)
+trade_spider(40)

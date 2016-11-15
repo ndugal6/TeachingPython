@@ -18,6 +18,11 @@
 * \n = newline 
 * \t = tab
 * \b = backspace
+* \a = alert/bell
+* \v = vertical tab
+* \e = escape
+* \s = space
+* \r = return
  
  **Example issue** *printing a file path*  
 
@@ -56,33 +61,34 @@ user[6:9] -> Kin
 user[6:] -> King  
 user[:] -> Bacon King  
 
-Math
-Add 				4 + 5
-Subtract 			5-4 
-Multiply 			10 * 2
-Exponent	 		10 ** 2
-Division 			9 / 4
-Rounded Division (Down) 	9 // 4
-Mod				 9%4
-Order of OP			2 + 4 * 3
+###Math
+Add 				4 + 5  
+Subtract 			5-4   
+Multiply 			10 * 2  
+Exponent	 		10 ** 2  
+Division 			9 / 4  
+Rounded Division (Down) 	9 // 4  
+Mod				 9%4  
+Order of OP			2 + 4 * 3  
 
-List
-players = [4, 10, 62, 99]
-players[2] = 62
-players[2] = 5
-Adding Items:
-players + [50, 27, 34] -> 4, 10, 62, 99, 50, 27, 34
---Temporary, Store to new list if you want to keep 
-players.append(29) --permanently changes the list 
-Can also slice using the ':' like in Strings
-players[:2]
-players[:2] = [4,5] //Replaces the first two values
-players[:2] = [] //Removes first two elements
+###List
+players = [4, 10, 62, 99]  
+players[2] = 62  
+players[2] = 5  
+**Adding Items:**  
+players + [50, 27, 34] -> 4, 10, 62, 99, 50, 27, 34  
+--Temporary, **Store to new list if you want to keep**   
+players.append(29) --permanently changes the list   
 
-If, elif
-age = 20
-if age < 21:
-	print("Can't buy beer")
+Can also slice using the ':' like in Strings  
+players[:2]  
+players[:2] = [4,5] //Replaces the first two values  
+players[:2] = [] //Removes first two elements  
+
+###If, elif
+age = 20  
+>if age < 21:    
+  print("Can't buy beer")
 name = "Lucy"
 if name is "John":
 	print("hello John")
