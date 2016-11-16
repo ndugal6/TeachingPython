@@ -254,3 +254,9 @@ for k, v in classmates.items():
 	print(k + v)
 
 ##Modules
+
+
+##Init
+> def __init(self)__ {
+    print("hello")
+    }
