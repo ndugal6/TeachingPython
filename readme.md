@@ -97,27 +97,31 @@ elif name is "Lucy":
 else:
 	print("who are you?")
 
-for
-foods = ['bacon', 'eggs', 'snausages', 'toast']
-for f in foods:
-	print(f)
-	print(len(f))
-Can also slice this
-for f in foods[:2]
-	print(f)
+###for
+foods = ['bacon', 'eggs', 'snausages', 'toast']  
+for f in foods:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(len(f))  
+	
+**Can also slice this**  
+for f in foods[:2]  
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f)
 
-Range, while
-for x in range(10): //x goes from 0 to 9
-	print('this is awesome')
-for x in range(5,12): //x goes from 5 to 11
-	print(x)
-for x in range(20, 50, 5): //x goes 20 to 50 in increments of 5
-	print(x)
-x = 5
-while x < 10:
-	print(x)
-	x += 1
-Comments and Break
+###Range, while
+for x in range(10): //x goes from 0 to 9  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  print('this is awesome')  
+
+for x in range(5,12): //x goes from 5 to 11  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x)  
+	
+for x in range(20, 50, 5): //x goes 20 to 50 in increments of 5    
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x)  
+x = 5  
+while x < 10:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x += 1  
+
+###Comments and Break
 Single line comments use #
 #this is a comment 
 Block, multiline comments, use ...
