@@ -122,23 +122,23 @@ while x < 10:
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x += 1  
 
 ###Comments and Break
-Single line comments use #
-#this is a comment 
-Block, multiline comments, use ...
+Single line comments use #  
+\#this is a comment  
+Block, multiline comments, use ...  
 ...
 ignores all the 
 lines of code until the 
 next
 ...
 
-magicNum = 26
-#searches for magicNumber and stops when it's found
-for n in range(101):
-	if n is magicNum:
-		print(n, ' is the magic number')
-		break #says skip remainder of loop and exit
-	else:
-		print(n)
+magicNum = 26  
+\#searches for magicNumber and stops when it's found  
+for n in range(101):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n is magicNum:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(n, ' is the magic number')  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break #says skip remainder of loop and exit  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(n)  
 
 #Prints only the numbers that are available
 numbersTaken = [2, 15, 4, 9, 11]
@@ -264,3 +264,369 @@ for k, v in classmates.items():
 > def __init(self)__ {
     print("hello")
     }
+    
+#Breakkkkkkkkkkkkk
+#-----------------------------------------------------
+>Open python3 idle  
+>import sys  
+sys.executable   
+Use file path
+
+**Tuple**  
+x = (1, 2, 3, 4, 5)  
+print(type(x), x)  
+***Tuple is immutable***
+ 
+
+**List**  
+x = [1, 2, 3, 4, 5]  
+print(type(x), x)  
+x.append(5)  
+x.insert(0, 6)  
+
+**Dictionary:**
+
+d = {‘one’: 1, ‘two’: 2, ‘three’: 3}  
+for k in d:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(k, d[k])  
+for k in sorted(d.keys()):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(k, d[k])  
+
+also:  
+d = dict(  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one = 1, two = 2, three = 3, four = 4, ‘five = ‘five’  
+)  
+d[‘seven’] = 7  
+print(d[‘seven’])  
+**what if not there:**  
+print(d[‘eight’])  
+Error: Say:  
+print(d.get(‘eight’, ‘Not in the dictionary’))  
+
+**Finding the type and identity of an object**  
+x = 42  
+id(42)  
+type(42)  
+
+id(x)  
+type(x)  
+
+y = 42  
+id(y)  
+y == x //Compares values for boolean  
+y is x //Compares ids for values   
+
+x = dict(x = 42)  
+type(x)  
+id(x)  
+
+y = dict(x = 42)  
+id(y)  
+
+
+**Boolean Objects**  
+a, b = 0, 1  
+a==b  
+
+a < b  
+
+a > b  
+
+a = True  
+type(a)  
+id(a)  
+id(True)  
+
+**If, Else**  
+a, b = 0, 1  
+v = ‘this is true’ if a < b else ‘this is false’  
+print(v)  
+
+
+**Find at what index a value exist**  
+s = ’this is a string’  
+for i, c in s:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#print(i, c)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (c == ’s’): print(“index {} is an s”.format(i))  
+
+**Loop Control:**  
+s = ’this is a string’  
+for c in s:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (c == ’s’): continue  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(c, end=‘ ‘)  
+for c in s:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (c == ’s’): break  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(c, end=‘ ‘)    
+for c in s:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(c, end=‘ ‘)  
+else: //When the for statement is completely false aka out of stuff to iterate  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘else’)  
+
+s = ’this is a string’  
+i = 0  
+while(i < len(s)):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(s[i], end=‘ ‘)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i += 1  
+else:   
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘else’)  
+
+
+**Simple Arithmetic:**  
+5 - 5  
+5 + 5  
+5 * 5  
+5 ** 5  
+12 / 5  
+12 // 5 #floor division  
+12 % 5 #Mod  
+divmod(12, 5) #Returns tuple with floor div and mod  
+
+num = 5  
+num += 5  
+num -= 5  
+num *= 5  
+num /= 5  
+num //= 5  
+
+
+**Operators on bitwise values**  
+0b101 -> 5  
+def b(n): print(‘{:08b}’.format(n))  
+x, y= 0x55, 0xaa  
+b(x)  
+b(y)  
+b(x | y) Or  
+b(x & y) And  
+b(x ^ y) Exclusive or  
+b(x ^ 0)  
+b (x << 4) Left shift  
+b(x >> 4) Right shift  
+b(~x) One complement operator  
+
+**Comparing values:**  
+\ >, <, >=, <=, ==, !=,   
+is and is not test the id, good for immutable, mutable not so much(such as list)
+Good to know if objects are exactly the same
+
+**Operating on booleans**
+x = True  
+print(type(x))  
+**comparing booleans**  
+True and False  
+True and True  
+True or False  
+False or False   
+True & True #WRONG does bitwise comparison  
+Ex:  
+a, b = 0, 1  
+x, y = ‘zero’, ‘one’  
+x < y  
+a < b  
+if a < b and x < y: print(“yes”)  
+else: print(“yes”)  
+
+**Operating on parts of a container with the slice operator**  
+
+list = []  
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
+list[0] #first element starts at 0    
+list[0:5]  
+for i in range(0,10)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i)  
+list[0:10]  
+list[:] = range(100)  
+list[27]  
+Slice: first argument is starting point, 2nd is exclusive end, 3rd is step by  
+list[27:43]  
+list[27:43:3]  
+for i in list[27:43:3]: print(i)  
+  
+list[27:43:3] = (99,99,99,99,99,99)  
+
+**Operator precedence:**  
+5 * 25 + 14 / 2 #Same as math  
+5 * (25 + 14) / 2  
+
+**Regular Expression:** Looks for patterns or replaces patterns  
+Used in python with the re module  
+ fh = open(‘Raven.txt’)  
+for line in fh:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;match = re.search(‘(Len|Nev)more’, line)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if match:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(match.group())  
+**To search and replace, use sub instead of search**  
+fh = open(‘Raven.txt’)  
+for line in fh:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(re.sub(‘(Len|Neverm)ore’, ‘###’, line), end=‘ ‘)  
+
+for line in fh:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;match = re.search(‘(Len|Neverm)ore’, line)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if match:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(line.replace(match.group(), ‘###’), end=‘ ‘)  
+**Precompiling regular expression to use over again**  
+pattern = re.compile(‘(Len|Neverm)ore’, re.IGNORECASE)  
+for line in fh:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if re.search(pattern, line):  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#print(line, end=‘’)  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(pattern.sub(‘###’, line), end=‘’)  
+
+**Exceptions:**  
+***Expirations are the key method of handling errors in Python***  
+“try” something, then catch an exception with “except”
+	raise own exceptions with “raise”  
+
+def main():  
+try:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fh = open(‘line.txt’)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for line in fh: print(line.strip())  
+**#except:# except IOError as e:**  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘could not open the file:’, e)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for line in fh: print(line.strip())  
+else:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for line in fh: print(line.strip())  
+**Raising Exceptions:**  
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for line in readfile(‘lines.txt’): print(line.strip())  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except IOError as e:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘cannot read file:’, e)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except ValueError as e:    
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘bad filename’, e)  
+
+def readfile(filename):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if filename.endswith(‘.txt’):  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fh = open(filename)  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return fh.readlines()  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else: raise ValueError(‘Filename must end with .txt’)  
+
+
+
+
+**Defining functions:**
+		
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testfunc(42, 16)  
+
+//def testfunc(number, another = 43, onemore = 75):  
+//	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘This is a test function’, number, another, onemore)    
+
+def testfunc(number, another = None, onemore = 75):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if another is None:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;another = 112  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘This is a test function’, number, another, onemore)    
+**Arbitrary amount of argument**
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testfunc(1, 2, 3,42, 43, 45, 46)  
+
+def testfunc(this, that, other, *args):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(this, that, other, args) #args is a tuple  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for n in args: print(n, end=‘ ‘)  
+**Passing named arguments from caller**  
+def main():  
+	//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testfunc(one = 1, two = 2, four = 42)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testfunc(5, 6, 7, 8, 9, 10one = 1, two = 2, four = 42)  
+**#specified arguments, then tuple argument, then keyword arguments**  
+def testfunc(this, that, other, *args, **kwargs):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘This is a test function’,  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this, that, other, args,  
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kwargs[‘one’], kwargs[‘two’], kwargs[‘four’])  
+
+	for k in kwargs: print(k, kwargs[k])
+
+**RETURNING VALUES FROM FUNCTIONS:**  
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(testfun())  
+
+def testfunc():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return ‘This is a test function’ #Can return any type  
+def testfunc()  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return range(25)  
+for n in testfunc(): print(n, end=‘ ‘)  
+
+**GENERATOR**
+
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(“this is the functions.py file.”)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in inclusive_range(0, 25, 1):  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i, end=‘ ‘)  
+def inclusive_range(start, stop, step):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = start  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while i <= stop:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yield i  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i += step  
+
+
+**USE ALL WE LEARNED**  
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(“this is the functions.py file.”)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in inclusive_range(25):  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i, end=‘ ‘)  
+def inclusive_range(*args):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;numargs = len(args)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if numargs < 1: raise TypeError(‘requires at least one argument’)  
+elif numargs == 1:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stop = args[0]  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;astart = 0  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;step = 1  
+elif numargs == 2:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(start, stop) = args  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;step = 1  
+elif numargs == 3:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(start, stop, step) = args  
+else: raise TypeError(‘inclusive_range expected at most 3 arguments, got {}’.format(numargs))  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = start  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while i <= stop:  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yield i  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i += step  
+
+**Constructor:**  
+class Duck:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self, value):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self._v = value  
+def quack(self):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘Quack!’, self._v)  
+def walk(self):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘Walks like a duck,’, self._v)  
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald = Duck(25)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frank = Duck(151)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.quack()  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.walk()  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frank.quack()  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frank.walk()  
+**Using Object Data: GETTER AND SETTER**  
+
+class Duck:  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#def __init__(self, color = ‘white’):  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#self._color = value  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self, **kwargs):  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#self._color = kwargs.get(‘color’, ‘white’)  
+		self.variable = kwargs
+	
+
+def quack(self):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘Quack!’, self._v)  
+def walk(self):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(‘Walks like a duck,’, self._v)  
+
+def set_color(self, color):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#self._color = color  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.variable[‘color’] = color  
+def get_color(self):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#return self._color  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return self.variable.get(‘color’, None)  
+
+def set_variable(self, k , v):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.variable[k] = v  
+
+def get_variable(self, k):  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return self.variables.get(k, None)  
+def main():  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald = Duck()  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald = Duck(color = ‘red’)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald = Duck(feet = 2)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#print(donald._color)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(donald.get_color())  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#donald_coor = ‘blue’  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.set_color(‘blue’)  
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(donald.get_color)  
