@@ -630,3 +630,51 @@ def main():
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#donald_coor = ‘blue’  
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.set_color(‘blue’)  
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(donald.get_color)  
+	
+##Inheritence  
+class Animal:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def talk(self): print('Hey, I have something to say')  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def walk(self): print('Ay, I'm walking here')  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def clothes(self): print('I have nice clothes')  
+  
+class Duck(Animal):  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def quack(self):  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Quack like a duck')  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def walk(self):   
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super().walk()  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Walk like a duck')  
+
+class Dog(Animal):  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass
+    
+    
+def main:  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald = Duck()  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.walk()  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.quack()  
+        
+##Polymorphism: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **using object of one cass as another class**  
+class Duck:  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def quack(self):  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Quaaack!')
+          
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  def walk(self):  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Walks like a duck.')
+          
+class Dog(Animal):    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  def bark(self):   
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Woof!')  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def fur(self):    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('the dog has white fur')
+        
+
+def main():  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald = Duck()  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.quack()  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;donald.walk()    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fido = Dog()  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+#Duck Typing (poly morph vid)
