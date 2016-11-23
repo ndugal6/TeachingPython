@@ -367,7 +367,7 @@ id(True)
 **Find at what index a value exist**
   
     s = ’this is a string’  
-    for i, c in s:  
+    for i, c in enumerate(s):  
 	    #print(i, c)  
 	    if (c == ’s’): print(“index {} is an s”.format(i))  
 
