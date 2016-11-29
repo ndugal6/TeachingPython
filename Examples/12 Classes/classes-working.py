@@ -8,7 +8,7 @@ class Duck:
     def walk(self):
         print('Walks like a duck.')
 
-    def bark(selfself):
+    def bark(self):
         print('The duck cannot bark')
     def fur(self):
         print('The duck has feathers')
@@ -16,7 +16,7 @@ class Duck:
 class Dog:
         def bark(self):
             print('Woof!')
-        def fur(selfself):
+        def fur(self):
                 print('The dog has brown and white fur')
         def walk(self):
             print('Walks like a dog')
