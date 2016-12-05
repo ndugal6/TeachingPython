@@ -32,15 +32,15 @@ def main():
     in_the_forest(donald)
     in_the_pond(fido)
 
-    # for o in (donald, fido):
-    #     o.quack()
-    #     o.walk()
-    #     o.bark()
-    #     o.fur()
+    for o in (donald, fido):
+        o.quack()
+        o.walk()
+        o.bark()
+        o.fur()
 
-# def in_the_forest(dog):
-#     dog.bark()
-#     dog.fur()
+def in_the_forest(dog):
+    dog.bark()
+    dog.fur()
 def in_the_forest(cat):
     cat.bark()
     cat.fur()

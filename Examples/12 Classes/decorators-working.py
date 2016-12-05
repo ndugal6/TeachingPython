@@ -40,4 +40,9 @@ def main():
     print(donald.color)
     #print(donald.get_property('color'))
 
+    dic = dict(data=[1,2], target=[])
+    datas = dic['data']
+    dic.update(data=datas+[3,4])
+    print(dic)
+
 if __name__ == "__main__": main()

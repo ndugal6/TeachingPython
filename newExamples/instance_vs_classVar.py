@@ -7,15 +7,9 @@ class Girl:
         self.name = name
 
 r = Girl('Rachel')
-s= Girl("Stank")
+s= Girl("Stacey")
 print(r.gender)
 print(s.gender)
 print(r.name)
 print(s.name)
 
-def main():
-    s = 'this is a string'
-    for c in s:
-        print(c, end=' ')
-
-main()
