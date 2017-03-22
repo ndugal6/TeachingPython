@@ -17,6 +17,8 @@ class Duck:
     def get_property(self, key):
         return self.properties.get(key, None)
 
+    def del_property(self,key):
+        del self.properties[key]
     #Turns into accessor with following decorator
     @property
     def color(self):
@@ -32,17 +34,22 @@ class Duck:
 
 
 def main():
-    # donald = Duck(color = 'blue')
+    donald = Duck(color = 'blue',head = 'round')
+    print(donald.get_properties())
+    print(donald.get_property("head"))
     donald = Duck()
     donald.color = 'blue'
     print(donald.color)
-    donald.__delattr__('color')
+    donald.del_property('color')
+    # donald.__delattr__('color')
     print(donald.color)
+    donald.properties = {'head' : 'square'}
+    print(donald.get_properties())
     #print(donald.get_property('color'))
 
-    dic = dict(data=[1,2], target=[])
-    datas = dic['data']
-    dic.update(data=datas+[3,4])
-    print(dic)
+    # dic = dict(data=[1,2], target=[])
+    # datas = dic['data']
+    # dic.update(data=datas+[3,4])
+    # print(dic)
 
 if __name__ == "__main__": main()

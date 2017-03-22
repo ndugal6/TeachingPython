@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60fc8e0c-0f80-496a-8fc6-5587aac92414" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/AnimalInheritance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/AnimalInheritance3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/Classes/classes&amp;objects.textClipping" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Anagrams_Dictionary" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/NumPy/Arrays_[t3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/NumPy/Arrays_pt1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/NumPy/Arrays_pt2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/NumPy/Arrays_pt4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/NumPy/weather_1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/NumPy/weather_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/Pandas/DataFrames.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newExamples/Pandas/Series.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/AnimalInheritance.py" afterPath="$PROJECT_DIR$/newExamples/Classes/AnimalInheritance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/AnimalInheritance3.py" afterPath="$PROJECT_DIR$/newExamples/Classes/AnimalInheritance3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Dictionary_Calculations.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Dictionary_Calculations.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Dictionary_Multi_Key_Sort.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Dictionary_Multi_Key_Sort.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Inheritance.py" afterPath="$PROJECT_DIR$/newExamples/Classes/Inheritance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Largest_Smallest_Item.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Largest_Smallest_Item.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Min_Max_Sort_Dictionary.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Min_Max_Sort_Dictionary.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Most_Frequent.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Most_Frequent.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/MultiInheritance.py" afterPath="$PROJECT_DIR$/newExamples/Classes/MultiInheritance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/Sorting_Custom_Objects.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/Sorting_Custom_Objects.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/WordFrequencyCounter.py" afterPath="$PROJECT_DIR$/newExamples/Dictionaries/WordFrequencyCounter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/classes&amp;objects.py" afterPath="$PROJECT_DIR$/newExamples/Classes/classes&amp;objects.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/classes&amp;objects.textClipping" afterPath="$PROJECT_DIR$/Examples/12 Classes/class_getter_setter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newExamples/instance_vs_classVar.py" afterPath="$PROJECT_DIR$/newExamples/Classes/instance_vs_classVar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TeachingPython.iml" afterPath="$PROJECT_DIR$/.idea/TeachingPython.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/09 Regexes/regex.py" afterPath="$PROJECT_DIR$/Examples/09 Regexes/regex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/12 Classes/classes-working.py" afterPath="$PROJECT_DIR$/Examples/12 Classes/classes-working.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/12 Classes/decorators-working.py" afterPath="$PROJECT_DIR$/Examples/12 Classes/decorators-working.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newExamples/instance_vs_classVar.py" afterPath="$PROJECT_DIR$/newExamples/instance_vs_classVar.py" />
     </list>
     <ignored path="TeachingPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,101 +50,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnimalInheritance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newExamples/AnimalInheritance.py">
+      <file leaf-file-name="get_stock_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Library/Mail/V3/IMAP-nickdugal@imap.gmail.com/INBOX.mbox/E16E503B-52FE-4276-B9BD-230A3D205A14/Data/7/Attachments/7601/3/get_stock_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Series.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newExamples/Pandas/Series.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimalInheritance3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newExamples/AnimalInheritance3.py">
+      <file leaf-file-name="DataFrames.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newExamples/Pandas/DataFrames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="irisLearningFirst.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/irisLearningFirst.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleVectors&amp;Decorators.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/SimpleVectors&amp;Decorators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleVectors.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Downloads/SimpleVectors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dictionary_Multi_Key_Sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newExamples/Dictionary_Multi_Key_Sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Min_Max_Sort_Dictionary.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newExamples/Min_Max_Sort_Dictionary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiniBatchPatches_Olivetti_Faces.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/ClusterPractice/machinelearningclassification/MiniBatchPatches_Olivetti_Faces.py">
+      <file leaf-file-name="regex.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examples/09 Regexes/regex.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newExamples/Map.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lambda.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newExamples/Lambda.py">
+      <file leaf-file-name="weather_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newExamples/NumPy/weather_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -144,20 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/newBostonExamples/Min_Max_Sort_Dictionary.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Pillow_ImageWorking.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Get_Img_Individual_Channels.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Img_Transform.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Img_Mode_Filter.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Structs.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Map.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Bitwise_Operators.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Largest_Smallest_Item.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Dictionary_Calculations.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Most_Frequent.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Dictionary_Multi_Key_Sort.py" />
-        <option value="$PROJECT_DIR$/newBostonExamples/Sorting_Custom_Objects.py" />
-        <option value="$USER_HOME$/PycharmProjects/ClusterPractice/Main.py" />
         <option value="$PROJECT_DIR$/newExamples/Pillow_ImageWorking.py" />
         <option value="$PROJECT_DIR$/newExamples/Img_Mode_Filter.py" />
         <option value="$PROJECT_DIR$/newExamples/Get_Img_Individual_Channels.py" />
@@ -185,8 +144,6 @@
         <option value="$PROJECT_DIR$/Examples/16 Databases/sqlite3-crud-working.py" />
         <option value="$PROJECT_DIR$/Examples/16 Databases/sqlite3-class-working.py" />
         <option value="$PROJECT_DIR$/Examples/17 Modules/modules-working.py" />
-        <option value="$PROJECT_DIR$/Examples/09 Regexes/regex.py" />
-        <option value="$PROJECT_DIR$/Examples/12 Classes/decorators-working.py" />
         <option value="$PROJECT_DIR$/Examples/10 Exceptions/exceptions.py" />
         <option value="$PROJECT_DIR$/newExamples/instance_vs_classVar.py" />
         <option value="$PROJECT_DIR$/Examples/12 Classes/classes-working.py" />
@@ -195,13 +152,28 @@
         <option value="$PROJECT_DIR$/newExamples/AnimalInheritance3.py" />
         <option value="$USER_HOME$/Downloads/irisLearningFirst.py" />
         <option value="$USER_HOME$/Downloads/SimpleVectors&amp;Decorators.py" />
+        <option value="$PROJECT_DIR$/Examples/12 Classes/class_getter_setter.py" />
+        <option value="$PROJECT_DIR$/Examples/12 Classes/decorators-working.py" />
+        <option value="$PROJECT_DIR$/newExamples/Dictionaries/Anagrams_Dictionary" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/Arrays.py" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/weather_1.py" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/Arrays_[t3.py" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/Arrays_pt4.py" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/weather_2.py" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/Arrays_pt1.py" />
+        <option value="$PROJECT_DIR$/newExamples/NumPy/Arrays_pt2.py" />
+        <option value="$PROJECT_DIR$/../PandaPractice/PandaIO.py" />
+        <option value="$PROJECT_DIR$/newExamples/Pandas/Series.py" />
+        <option value="$PROJECT_DIR$/newExamples/Pandas/DataFrames.py" />
+        <option value="$PROJECT_DIR$/Examples/09 Regexes/regex.py" />
+        <option value="$USER_HOME$/Library/Mail/V3/IMAP-nickdugal@imap.gmail.com/INBOX.mbox/E16E503B-52FE-4276-B9BD-230A3D205A14/Data/7/Attachments/7601/3/get_stock_data.py" />
+        <option value="$USER_HOME$/Downloads/candle_graph.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="840" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -221,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,21 +216,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="newExamples" />
+              <option name="myItemId" value="Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeachingPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeachingPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07 Loops" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/ClusterPractice/machinelearningclassification" />
     <property name="SearchEverywhereHistoryKey" value="reverse&#9;null&#9;null" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -266,48 +256,83 @@
       <recent name="$PROJECT_DIR$/Examples/12 Classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/newExamples" />
+      <recent name="$PROJECT_DIR$/newExamples/Classes" />
+      <recent name="$PROJECT_DIR$/newExamples/Dictionaries" />
       <recent name="$PROJECT_DIR$/Examples/09 Regexes" />
       <recent name="$PROJECT_DIR$/Examples" />
-      <recent name="$PROJECT_DIR$/newBostonExamples" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SimpleVectors&amp;Decorators">
-    <configuration default="false" name="classes-working" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.get_stock_data">
+    <configuration default="false" name="Series" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples/12 Classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newExamples/Pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TeachingPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examples/12 Classes/classes-working.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newExamples/Pandas/Series.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="AnimalInheritance3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="DataFrames" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newExamples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newExamples/Pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TeachingPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newExamples/AnimalInheritance3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newExamples/Pandas/DataFrames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Untitled1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples/09 Regexes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TeachingPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examples/09 Regexes/regex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_stock_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Library/Mail/V3/IMAP-nickdugal@imap.gmail.com/INBOX.mbox/E16E503B-52FE-4276-B9BD-230A3D205A14/Data/7/Attachments/7601/3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TeachingPython" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Library/Mail/V3/IMAP-nickdugal@imap.gmail.com/INBOX.mbox/E16E503B-52FE-4276-B9BD-230A3D205A14/Data/7/Attachments/7601/3/get_stock_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="candle_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -319,41 +344,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TeachingPython" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Untitled1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="irisLearningFirst" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TeachingPython" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/irisLearningFirst.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SimpleVectors&amp;Decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TeachingPython" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/SimpleVectors&amp;Decorators.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/candle_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -493,19 +484,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.classes-working" />
-      <item index="1" class="java.lang.String" itemvalue="Python.AnimalInheritance3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Untitled1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.irisLearningFirst" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SimpleVectors&amp;Decorators" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Series" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DataFrames" />
+      <item index="2" class="java.lang.String" itemvalue="Python.regex" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_stock_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.candle_graph" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SimpleVectors&amp;Decorators" />
-        <item index="1" class="java.lang.String" itemvalue="Python.irisLearningFirst" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Untitled1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AnimalInheritance3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.classes-working" />
+        <item index="0" class="java.lang.String" itemvalue="Python.get_stock_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.candle_graph" />
+        <item index="2" class="java.lang.String" itemvalue="Python.regex" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DataFrames" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Series" />
       </list>
     </recent_temporary>
   </component>
@@ -526,12 +517,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="840" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22152779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20883535" sideWeight="0.50390625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,7 +532,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3613551" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21046644" sideWeight="0.49609375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -568,199 +559,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Examples/14 Containers/containers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/14 Containers/utf8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/14 Containers/containers-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/lines.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/new.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files-working2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/new.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files-working3_RWBinary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/databases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/databases-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/sqlite3-crud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/sqlite3-crud-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/sqlite3-class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/sqlite3-class-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/17 Modules/MODULES-WORKING/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Examples/17 Modules/modules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/17 Modules/modules-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/05 Variables/variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/09 Regexes/dictionary_working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/09 Regexes/regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/12 Classes/classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/11 Functions/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/12 Classes/decorators-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/12 Classes/generator-working.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/13 Strings/Dictionary_Organizing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/Dictionary_Calculations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/13 Strings/SequenceOperations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -782,14 +585,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/Inheritance.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Classes/Inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/classes&amp;objects.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Classes/classes&amp;objects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
@@ -803,14 +606,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/instance_vs_classVar.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Classes/instance_vs_classVar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/WordFrequencyCounter.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Dictionaries/WordFrequencyCounter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="64" />
@@ -824,7 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/MultiInheritance.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Classes/MultiInheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -849,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,24 +659,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/AnimalInheritance.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Classes/AnimalInheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Untitled1.py" />
-    <entry file="file://$PROJECT_DIR$/newExamples/AnimalInheritance3.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Classes/AnimalInheritance3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,31 +681,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/irisLearningFirst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/Dictionary_Multi_Key_Sort.py">
+    <entry file="file://$USER_HOME$/Downloads/irisLearningFirst.py" />
+    <entry file="file://$PROJECT_DIR$/newExamples/Dictionaries/Dictionary_Multi_Key_Sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newExamples/Min_Max_Sort_Dictionary.py">
+    <entry file="file://$PROJECT_DIR$/newExamples/Dictionaries/Min_Max_Sort_Dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,15 +703,204 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/SimpleVectors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/12 Classes/decorators-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/12 Classes/generator-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/14 Containers/containers-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files-working2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/15 Files/files-working3_RWBinary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/16 Databases/databases-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/12 Classes/class_getter_setter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/Dictionaries/words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/Dictionaries/Anagrams_Dictionary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/NumPy/weather_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/17 Modules/modules-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/NumPy/Arrays_[t3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/NumPy/Arrays_pt4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PandaPractice/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PandaPractice/PandaIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/NumPy/Arrays_pt2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/NumPy/Arrays_pt1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PandaPractice/DF_Concat_Append_PandaEx4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PandaPractice/Quandl_PandaEx3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/candle_graph.py" />
+    <entry file="file://$USER_HOME$/Downloads/get_stock_data.py" />
+    <entry file="file://$PROJECT_DIR$/Examples/07 Loops/for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/Pandas/Series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="102" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/Pandas/DataFrames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/09 Regexes/regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newExamples/NumPy/weather_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Mail/V3/IMAP-nickdugal@imap.gmail.com/INBOX.mbox/E16E503B-52FE-4276-B9BD-230A3D205A14/Data/7/Attachments/7601/3/get_stock_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,56 @@
+def oldWay():
+    word = open("words.txt",'r' )
+    wordlist = word.readlines()
+    wordclean = [word.strip().lower() for word in wordlist]
+    wordunique = list(set(wordclean))
+    wordunique.sort()
+# oldWay()
+# wordclean = [word.strip().lower() for word in open('words.txt', 'r')]
+
+# wordclean = sorted(list(set([word.strip().lower() for word in open('words.txt', 'r')])))
+# print(wordclean[:10])
+def checkOutSorted():
+    print(sorted('lives'))
+    print(sorted('lives') == sorted('elvis'))
+    print(sorted('love') == sorted('hate'))
+
+#returns a word's letters in sorted order as a string
+def signature(word):
+    # Joins all the values of the sorted lists, seperating each value by '', which is nothing
+    return ''.join(sorted(word))
+
+
+#Returns the string anagram for a given word
+def anagram(myword):
+    return [word for word in wordclean if signature(word) == signature(myword)]
+
+#Find how fast it's running
+words_bysig = {}
+
+
+wordclean = sorted(list(set([word.strip().lower() for word in open('words.txt', 'r')])))
+print(wordclean[:10])
+
+#Import collections so we can set a key and value in a dictionary if the key doesn't exist, else we add values to the key
+import collections
+words_bysig = collections.defaultdict(list)
+
+for word in wordclean:
+    words_bysig[signature(word)].append(word)
+
+def anagram_fast(myword):
+    return words_bysig[signature(myword)]
+
+anagrams_all = {word: anagram_fast(word) for word in wordclean if len(anagram_fast(word)) > 1}
+print(anagrams_all['dictionary'])
+
+words_bylength = collections.defaultdict(list)
+for word in wordclean:
+    words_bylength[len(word)].append(word)
+
+anagrams_perLength = {}
+
+for length,values in words_bylength.items():
+    # Subtract 1 since list of anagrams include itself, /2 bc lives contains anagram elvis and vice-versa
+    anagrams_perLength[length] = sum(len(anagram_fast(word)) -1 for word in values if len(anagram_fast(word)) > 1)/2
+print(anagrams_perLength)
